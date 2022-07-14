@@ -83,6 +83,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 5%;
+  padding: 0 1%;
 }
 .donation-amount-1 {
   width: 135px;
@@ -162,6 +164,19 @@ h2 {
 .contribute-area {
   display: flex;
   align-items: center;
+}
+.subscription-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscription-form {
+  background-color: #fff4d6;
+  padding: 80px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
 }
 footer {
   height: 177px;
